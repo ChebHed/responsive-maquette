@@ -1,0 +1,164 @@
+/**
+*Styles.css 
+*maj par hedy
+*/
+
+/* reset  */
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border:solid 1px black; */
+}
+
+
+body{
+  background-color: violet;
+
+}
+
+article{
+  background-color: palevioletred;
+
+}
+
+section{
+  background-color: mediumspringgreen;
+}
+
+/* article p{
+  padding: 1em;
+} */
+
+
+/*style petits smartphones en voie de disparition*/
+@media only screen and (min-width: 650px){  
+  
+  body{
+    background-color: yellowgreen;
+    
+  }
+
+  article:nth-of-type(1n){
+    background-color: peru;
+    float: left;
+    width: 50%;
+  }
+
+  article:nth-of-type(2n){
+    background-color: powderblue;
+    float: right;
+    width: 50%;
+  }
+
+  section:nth-of-type(1){
+    background-color: mintcream;
+  }
+
+  section:nth-of-type(2){
+    background-color: olivedrab;
+  }
+  
+
+  /* .titre{
+    visibility: hidden;
+  }
+  
+  .start{
+    background-color: gray;
+    border:solid 1px black; 
+  }
+  .container{
+    border:solid 1px black; 
+  }
+
+
+  .end{
+    background-color: honeydew;
+    border:solid 1px black; 
+  } */
+
+}
+
+
+
+@media only screen and (min-width: 1200px){  
+
+  body{
+    background-color: paleturquoise;
+    
+  }
+  article:nth-of-type(1n){
+    background-color: peru;
+    float: left;
+    width: 33.33%;
+  }
+
+  article:nth-of-type(2n){
+    background-color: olive;
+    float: center;
+    width: 33.33%;
+  }
+
+  article:nth-of-type(3n){
+    background-color: indianred;
+    float: center;
+    width: 33.33%;
+  }
+
+  section:nth-of-type(1n){
+    background-color: lemonchiffon;
+    float: left;
+    width: 60%;
+  }
+
+  section:nth-of-type(2n){
+    background-color: mediumpurple;
+    float: right;
+    width: 40%;
+  } 
+
+
+}
+
+/* Largeur / hauteur minimale : */
+/* @media (min-width: 351px) and (max-width: 1200px){
+  .start{
+    background-color: hotpink;
+    border:solid 1px black; 
+   
+    }
+    .container {
+      display: flex;
+     }
+
+    p:nth-child(n-2)
+     
+
+  .end{
+    background-color: lightsalmon;
+    border:solid 1px black; 
+  }
+} */
+
+/*style petites-moyennes tablettes 
+@media only screen and (min-width: 800px) {
+  .start{
+    background-color: midnightblue;
+    border:solid 1px black; 
+  }
+
+  .bod {
+    display: flex;
+   }
+
+  .end{
+    background-color: tomato;
+    border:solid 1px black; 
+  }
+
+  }
+*/
